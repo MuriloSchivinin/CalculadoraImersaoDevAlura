@@ -1,0 +1,55 @@
+body {
+    background: coral;
+}
+
+#calculadora {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+
+#result {
+    margin: 10px 5px;
+    width: 350px;
+    height: 55px;
+    text-align: right;
+    font-size: 60px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.conteudo {
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 450px;
+    background-color: #00071c;
+    box-shadow: 2px 2px 2px black;
+}
+
+.botoes{
+    margin-left: 5px;
+}
+
+.btn {
+    width: 80px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 40px;
+    font-weight: bold;
+    border: 1px solid white;
+    position: relative;
+    float: left;
+    background: slategray;
+}
+
+.btnc, .btn0, .btnigual {
+    width: 170px;
+}
+
+
+.btn:hover {
+    background-color:  #00071c;
+    color: white;
+}
